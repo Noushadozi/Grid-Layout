@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    height: 100px;
+    width: 100px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 150px repeat(4, 1fr);
+    grid-template-rows: 250px 150px 200px 280px;
+    gap: 15px;
+    padding: 15px;
+    font-size: 45px;
+    background-color: #485563;
+    
+    
+    
+}
+.sidebar{
+    grid-row: 1 / -1;
+    background-color: #49C5F6;
+    border-radius: 10px;
+    
+}
+.header{
+    grid-column: 2/-1;
+    background-color: #FF2AEF;
+    border-radius: 10px;
+}
+.chart-one{
+    grid-column: 2/4;
+    background-color: #F1C9EC;
+    border-radius: 10px;
+
+}
+.chart-two{
+    grid-column: 4/-1;
+    background-color: #AB84CB;
+    border-radius: 10px;
+}
+.overview{
+    grid-column: 2/5;
+    background-color: #F4A261;
+    border-radius: 10px;
+}
+.stat-one{
+    background-color: #B5D43C;
+    border-radius: 10px;
+
+}
+.stat-two{
+    border-radius: 10px;
+    background-color: #16A085;
+
+}
+.stat-three{
+    border-radius: 10px;
+    background-color: #2B5876;
+}
+.stat-four{
+    background-color: #0C97FA;
+    border-radius: 10px;
+}
+.reminder{
+    background-color: #F4D03F;
+    border-radius: 10px;
+}
